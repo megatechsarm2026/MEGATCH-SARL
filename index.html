@@ -14,7 +14,8 @@ a{text-decoration:none;color:inherit}.container{width:min(1180px,92%);margin:aut
 .top .container{display:flex;gap:25px;justify-content:center;flex-wrap:wrap}.top span{opacity:.95}
 nav{position:sticky;top:0;z-index:20;background:#14171b;color:#fff;border-bottom:3px solid var(--red)}
 .navin{height:78px;display:flex;align-items:center;justify-content:space-between;gap:25px}
-.brand{display:flex;align-items:center;gap:12px;min-width:235px}.logoMark{width:58px;height:58px;border-radius:9px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 1px rgba(255,255,255,.18) inset}.logoMark img{width:100%;height:100%;object-fit:cover;object-position:center 42%;display:block}
+.brand{display:flex;align-items:center;gap:12px;min-width:235px}.brandLogoImg{width:210px;height:62px;object-fit:contain;object-position:left center;border-radius:8px;background:#fff}
+.logoMark{width:52px;height:52px;border-radius:9px;background:linear-gradient(135deg,#24282d 45%,var(--red) 46%);display:grid;place-items:center;font-weight:900;font-size:24px;box-shadow:0 0 0 2px #fff2 inset}
 .brand b{font-size:24px;letter-spacing:-.5px}.brand small{display:block;color:var(--gold);font-weight:700;letter-spacing:1.2px;font-size:10px}
 .links{display:flex;gap:26px;align-items:center;font-weight:700;font-size:14px}.links a:hover,.links a.active{color:#ff3d46}
 .cta{background:var(--red);color:#fff;padding:13px 20px;border-radius:5px;font-weight:800;display:inline-block}.cta:hover{background:#e12c35}
@@ -40,7 +41,7 @@ footer{background:#0c0f12;color:#fff;padding:30px 0}.footerin{display:flex;justi
 </div></div>
 
 <nav><div class="container navin">
-<a class="brand" href="#accueil"><div class="logoMark"><img src="assets/logo-megatech-officiel.jpg" alt="Logo officiel MEGATECH SARL"></div><div><b>Megatech</b><small>GREAT FUTURE BUILDING</small></div></a>
+<a class="brand" href="#accueil"><img class="brandLogoImg" src="assets/logo-megatech-officiel.jpg" alt="Logo officiel MEGATECH SARL"></a>
 <div class="links"><a class="active" href="#accueil">ACCUEIL</a><a href="#apropos">À PROPOS</a><a href="#services">SERVICES</a><a href="#realisations">RÉALISATIONS</a><a href="#hse">HSE</a><a href="#contact">CONTACT</a></div>
 <a class="cta" href="#contact">DEMANDER UN DEVIS</a>
 </div></nav>
@@ -108,6 +109,6 @@ footer{background:#0c0f12;color:#fff;padding:30px 0}.footerin{display:flex;justi
 <textarea placeholder="Message / Cahier des charges"></textarea><button class="cta" type="submit">ENVOYER LA DEMANDE</button>
 </form></div></div></section>
 
-<footer><div class="container footerin"><div class="brand"><div class="logoMark"><img src="assets/logo-megatech-officiel.jpg" alt="Logo officiel MEGATECH SARL"></div><div><b>Megatech</b><small>GREAT FUTURE BUILDING</small></div></div><small>© 2026 MEGATECH SARL — Tous droits réservés.</small><small>Lubumbashi • +243 811 124 621 • megatechsarl01@gmail.com</small></div></footer>
+<footer><div class="container footerin"><div class="brand"><img class="brandLogoImg" src="assets/logo-megatech-officiel.jpg" alt="Logo officiel MEGATECH SARL"></div><small>© 2026 MEGATECH SARL — Tous droits réservés.</small><small>Lubumbashi • +243 811 124 621 • megatechsarl01@gmail.com</small></div></footer>
 </body>
 </html>
